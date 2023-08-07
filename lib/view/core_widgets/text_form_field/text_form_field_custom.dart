@@ -14,6 +14,7 @@ class TextFormFieldCustom extends StatelessWidget {
   final bool obSecure;
   final Widget? prefixIcon;
   final bool prefix;
+
   final Widget? suffixIcon;
   final bool suffix;
   final Function? suffixOnPressed;
@@ -31,8 +32,8 @@ class TextFormFieldCustom extends StatelessWidget {
   final Color? fillColor;
   final Color? boarderColor;
   final Color ? inputTextColor;
-
   const TextFormFieldCustom(
+
       {Key? key,
         this.controller,
         this.label,

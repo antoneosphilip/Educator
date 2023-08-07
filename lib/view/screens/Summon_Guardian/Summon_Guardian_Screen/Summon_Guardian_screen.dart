@@ -25,13 +25,12 @@ class _SummonGuardianscreenSiewscreenState extends State<SummonGuardianScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: Navbarparent(),
-      backgroundColor: Colors.grey[200],
       appBar: customAppBar(context),
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
         child: Column(
           children: [
-            Names(namelist: [nameslist],heigh: 60,),
+            Names(namelist: nameslist,heigh: 60,),
             Container(
               width: double.infinity,
               height: 30,

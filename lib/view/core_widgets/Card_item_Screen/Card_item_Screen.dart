@@ -1,3 +1,5 @@
+import 'package:educator/view/core_widgets/Line_Seprated/Line_Seprated.dart';
+import 'package:educator/view/screens/Exam/Exam_Screen/Exam_Screen.dart';
 import 'package:educator/view/screens/Exam/Exam_Widget/Exam_Widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -18,8 +20,11 @@ class Cardeducator extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: (){
+        if(Show_Text==false)
+          Navigator.push(context, (MaterialPageRoute(builder: (context)=>ExamScreen())));
         showDialog
           (
+
           context: context, builder: (context)=> AlertDialog(
           title: Show_Text!?Text('${text4
           }'):AlterDialogExam()
@@ -49,11 +54,7 @@ class Cardeducator extends StatelessWidget {
                       ],
                     ),
                   ),
-                  Container(
-                    height: 1,
-                    width: double.infinity,
-                    color: Colors.grey,
-                  ),
+              LineSeprated(),
                   SizedBox(height: 10,),
                   Padding(
                     padding: const EdgeInsets.all(10.0),

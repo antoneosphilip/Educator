@@ -15,7 +15,6 @@ class Loginform extends StatefulWidget {
   @override
   State<Loginform> createState() => _LoginformState();
 }
-
 class _LoginformState extends State<Loginform> {
   @override
   Widget build(BuildContext context) {
@@ -31,7 +30,7 @@ class _LoginformState extends State<Loginform> {
               return null;
             },
               fillColor: ColorManager.colorsecond,
-              hint:TextManager.EMAIL ,
+              label:TextManager.EMAIL ,
               prefix: false,
             ),
           ),
@@ -46,6 +45,7 @@ class _LoginformState extends State<Loginform> {
               },
               suffix: true,
               obSecure: ispassword?false:true,
+              label: TextManager.PASSWORD,
               suffixIcon: ispassword?Icon(Icons.visibility):Icon(Icons.visibility_off),suffixOnPressed: (){
               setState(() {
                 ispassword=!ispassword;

@@ -22,7 +22,7 @@ class _loginexamparentscreenState extends State<loginexamparentscreen> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            SizedBox(height: 100,),
+            SizedBox(height: 150,),
             Stack(
               alignment: Alignment.center,
               children: [
@@ -43,7 +43,7 @@ class _loginexamparentscreenState extends State<loginexamparentscreen> {
             ),
             SizedBox(height: 90,),
             Loginform(),
-            SizedBox(height: 40,),
+            SizedBox(height: 20,),
             Image(
               width: 255,
               height: 74,
@@ -53,7 +53,7 @@ class _loginexamparentscreenState extends State<loginexamparentscreen> {
             ),
             Image(
               width: 255,
-              height: 74,
+              height: 20,
               image: const AssetImage(
                 AssetsManager.educatorsystem,
               ),

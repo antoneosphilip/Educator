@@ -7,11 +7,14 @@ import '../../../core/assets_manager/assets_manager.dart';
       preferredSize: Size.fromHeight(70.0),
       child: AppBar(
         actions: [
-          Align(
-            child: ImageIcon( AssetImage( AssetsManager.welcome,
-            ),color: Colors.white,size: 40,
-            ),
-            alignment: Alignment.bottomCenter,)
+          Padding(
+            padding: const EdgeInsets.only(right: 20),
+            child: Align(
+              child: ImageIcon( AssetImage( AssetsManager.welcome,
+              ),color: Colors.white,size: 40,
+              ),
+              alignment: Alignment.bottomCenter,),
+          )
         ],
         leading: Align(
           child: Padding(

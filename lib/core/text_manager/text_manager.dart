@@ -13,28 +13,46 @@ class TextManager
   static const String Date  = "16,june";
   static const String Reports  = "Report's";
   static const String Reports_2  = "you can view student Reports's here";
-  static const String Exam  = " Exam";
-  static const String Exam_2  = " you can view student Exam's here";
+  static const String Exam  = "Exam";
+  static const String Exam_2  = "you can view student Exam's here";
   static const String Show_Exam_Result = "show Exam Result";
   static const String Exam_result = "Exam result";
-    static const String summon_guardian  = "summon a guardian";
+  static const String summon_guardian  = "summon a guardian";
   static const String summon_guardian_2  = "you can view student summon a guardian here";
-
   static const String Home_Drawn  = "Home";
-  static const String Recording_Absence  = "Recording_Absence";
+  static const String Recording_Absence  = "absence";
+  static const String Recording_Absence_2  = "you can view student absence here";
+  static const String Absence= "Absence";
+  static const String Occasional  = "Occasional";
+  static const String Date_2  = "Date";
+  static const String Write_Report  = "Write a Report";
+  static const String time_Report  = "11.30 am";
+  static const String Name_Specialist  = "Mahmoud Alrashidi";
+  static const String Social_Specialst  = "Social Specialist";
+  static const String Archive  = "Archive";
+  static const String Archive_Description  = "Report history Search by report date";
+  static const String Profile  = "Profile";
+  static const String Profile_Description  = "Profile page containing private data";
+  static const String Name  = "Name";
+  static const String Phone  = "Phone";
+  static const String Phone_Number  = "0100273999";
+  static const String User  = "User";
+  static const String User_2  = "fjjj@2023";
+  static const String Pass  = "Pass";
+  static const String Pass_Number  = "12345";
+  static const String Back  = "Back";
+  static const String Send  = "Send";
+  static const String Writing_Report  = "Writing Report";
+  static const String Writing_Report_Description  = "Writing the report and selecting the recipients";
+  static const String Daily_Report  = "Daily Report";
+  static const String Daily_Report_Description  = "Cordinates of the lateset daily reports";
+  static const String Name_Or_Id  = "Name or Id";
+  static const String Student  = "Student";
   static const String Logout  = "Logout";
   static const String persons_email  = "someone@gmail.com";
   static const String person_name  = "mail";
   static const String Arabic  = "Arabic";
   static const String English  = "English";
-
-
-
-
-
-
-
-
-
+  static const String Delete  = "Delete Account";
 
 }
